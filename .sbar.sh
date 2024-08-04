@@ -20,6 +20,6 @@ print_date(){
 while true
 do
 
-	xsetroot -name "$(print_bat) $(print_date)"
+	xsetroot -name " $(print_bat) $(print_date) "
 	sleep 2m
 done
