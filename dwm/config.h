@@ -10,13 +10,12 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Fira Code:size=11" };
 static const char dmenufont[]       = "Fira Code:size=11";
 
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
-
-
+static const char col_gray1[]       = "#282828";
+static const char col_gray2[]       = "#ebdbb2";
+static const char col_gray3[]       = "#ebdbb2";
+static const char col_gray4[]       = "#282828";
+static const char col_gray5[]       = "#8ec07c";
+static const char col_cyan[]        = "#d65d0e";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
