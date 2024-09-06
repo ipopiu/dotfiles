@@ -1,0 +1,128 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #1c1b22;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --accent-color: #FAFAFC;
+    }
+}
+
+#navigator-toolbox {
+    border-bottom: none !important;
+}
+
+#titlebar {
+    background: var(--accent-color) !important;
+}
+
+toolbar#nav-bar {
+    background: var(--accent-color) !important;
+    box-shadow: none !important;
+}
+
+#urlbar {
+    background: var(--accent-color) !important;
+}
+
+#urlbar-background {
+    background: var(--accent-color) !important;
+    border: none !important;
+}
+
+#urlbar-input-container {
+    border: none !important;
+}
+
+
+:root {
+    --navbarWidth: 500px; 
+}
+
+@media (min-width: 1000px) {
+    #navigator-toolbox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #nav-bar {
+        order: 1;
+        width: var(--navbarWidth);
+    }
+
+    #titlebar {
+        order: 2;
+        width: calc(100vw - var(--navbarWidth) - 1px);
+    }
+
+    #PersonalToolbar {
+        order: 3;
+        width: 100%;
+    }
+    
+    :root[uidensity="compact"] #urlbar {
+        --urlbar-toolbar-height: 39.60px !important;
+    }
+
+    :root[uidensity="touch"] #urlbar {
+        --urlbar-toolbar-height: 49.00px !important;
+    }
+}
+
+
+#back-button, #forward-button {
+    transform: scale(1, 1) !important;
+    transition: margin-left 150ms var(--animation-easing-function), opacity 250ms var(--animation-easing-function), transform 350ms var(--animation-easing-function) !important;
+}
+
+#back-button[disabled="true"], #forward-button[disabled="true"] {
+    margin-left: -34px !important;
+    opacity: 0 !important;
+    transform: scale(0.8, 0.8) !important;
+    pointer-events: none !important;
+}
+
+#identity-box, 
+#tracking-protection-icon-container, 
+#page-action-buttons > :not(#urlbar-zoom-button, #star-button-box), 
+#urlbar-go-button, 
+#alltabs-button, 
+.titlebar-buttonbox-container {
+    display: none !important;
+}
+
+#nav-bar {
+    box-shadow: none !important;
+}
+
+.titlebar-spacer {
+    display: none !important;
+}
+
+#urlbar-container {
+    min-width: initial !important;
+}
+
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
+> #tabbrowser-arrowscrollbox
+> .tabbrowser-tab[first-visible-unpinned-tab] {
+    margin-inline-start: 0 !important;
+}
+
+#PanelUI-menu-button { 
+    padding: 0px !important;
+}
+
+#PanelUI-menu-button .toolbarbutton-icon { 
+    width: 1px !important; 
+}
+
+#PanelUI-menu-button .toolbarbutton-badge-stack {
+    padding: 0px !important; 
+}
+
+
+
