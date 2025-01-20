@@ -10,15 +10,12 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Fira Code:size=11" };
 static const char dmenufont[]       = "Fira Code:size=11";
 
-static const char col_gray1[]       = "#282a36"; // Dark background
-static const char col_gray2[]       = "#44475a"; // Slightly lighter background
-static const char col_gray3[]       = "#f8f8f2"; // Light foreground text
-static const char col_gray4[]       = "#ff79c6"; // Pink for emphasis
-static const char col_purple[]      = "#bd93f9"; // Purple accent
-static const char col_green[]       = "#50fa7b"; // Green accent
-static const char col_red[]         = "#ff5555"; // Red accent
-static const char col_yellow[]      = "#f1fa8c"; // Yellow accent
-static const char col_cyan[]        = "#8be9fd"; // Cyan accent
+static const char col_gray1[]       = "#282a36";
+static const char col_gray2[]       = "#644475";
+static const char col_gray3[]       = "#f8f8f2";
+static const char col_gray4[]       = "#282a36";
+static const char col_gray5[]       = "#a272a4";
+static const char col_cyan[]        = "#bf93f9";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
